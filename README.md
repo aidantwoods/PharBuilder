@@ -7,6 +7,8 @@
 
 `-b` bootstrap file
 
+`-l` library (no hashbang) mode
+
 `-v` verbose
 
 `-i` ignore dot files

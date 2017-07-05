@@ -46,8 +46,8 @@ class Build
         $name = basename($this->outputPhar, '.phar');
 
         $this->phar->setStub(
-"#!/usr/bin/env php
-<?php
+( ! isset($this->options['l']) ? "#!/usr/bin/env php\n" : '')
+."<?php
 Phar::mapPhar('{$name}');
 set_include_path('phar://{$name}/' . get_include_path());
 require('{$this->bootstrap}');
