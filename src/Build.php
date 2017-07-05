@@ -100,8 +100,10 @@ __HALT_COMPILER();"
         $this->options = $options;
     }
 
-    private function addDirectory(string $directory)
+    private function addDirectory($directory)
     {
+        $directory = (string) $directory;
+
         $contents = scandir($directory);
 
         foreach ($contents as $item)
