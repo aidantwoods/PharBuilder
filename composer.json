@@ -16,5 +16,6 @@
             "name": "Aidan Woods",
             "email": "aidantwoods@gmail.com"
         }
-    ]
+    ],
+    "bin": ["bin/phar-build"]
 }
