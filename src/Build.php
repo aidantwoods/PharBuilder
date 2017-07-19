@@ -1,6 +1,6 @@
 <?php
 
-namespace Aidantwoods\PharBuild;
+namespace Aidantwoods\PharBuilder;
 
 class Build
 {
